@@ -17,4 +17,4 @@ EXPOSE 80
 ENV NAME World
 
 # 當 Docker 容器啟動時，自動執行 app.py
-CMD ["python", "helloword.py"]
+CMD ["python", "helloworld.py"]
