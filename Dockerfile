@@ -1,5 +1,5 @@
 # 使用官方的 Python 執行環境作為基本的 Docker 影像
-FROM Python 3.6.6
+FROM python:3.6.6
 
 # 設定工作目錄為 /app
 WORKDIR /app
